@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qoutes</title>
+</head>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(0, 0, 0);
+        justify-content: center;
+    }
+
+    .author {
+        text-align: right;
+        margin-right: 12%;
+        font-family: cursive;
+        color: gray;
+    }
+
+    a {
+        align-self: center;
+    }
+
+    .quote {
+        text-align: center;
+        font-size: 31px;
+        font-family: system-ui;
+        font-weight: 500;
+        color: #4257a3;
+    }
+
+    input {
+        width: 100px;
+        height: 31px;
+        border: none;
+        background: #42b619;
+        color: #000000;
+        border-radius: 9px;
+        font-family: revert;
+        letter-spacing: 1px;  
+  }
+
+ 
+    
+</style>
+
+<body>
+    <p class="quote">{{quote}}</p>
+    <p class="author">-- {{author}}</p><br><br>
+    <a href="">
+        <input type="button" value="regenerate" >
+    </a>
+</body>
+
+</html>
